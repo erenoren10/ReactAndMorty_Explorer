@@ -1,0 +1,181 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #124bbe;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #326821;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.navbar {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  padding: 0.5rem;
+  margin-right: 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid #ccc;
+}
+
+.container {
+  margin-top: 2rem;
+}
+
+.bolumbaslik {
+  color: #333;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+}
+
+.episode-details {
+  flex: 1;
+  margin-right: 10px; /* İstenilen boşluk için */
+  border: 1px solid #ccc;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.character-details {
+  flex: 1;
+  border: 1px solid #ccc;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+
+.favorite-button {
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  background-color: #eee;
+  color: #333;
+}
+
+
+.link {
+  display: inline-block;
+  margin-right: 1rem;
+  font-size: 1rem;
+  color: white;
+}
+
+.link a {
+  text-decoration: none;
+  color: white;
+}
+
+.link a:hover {
+  text-decoration: underline;
+}
+.page-item{
+  display: inline-block;
+}
+.bolumbaslik{
+  display: flex;
+  justify-content: center;
+}
+.selected-character-header{
+  display: flex;
+  flex-direction: row;
+}
+
+
+/* FAVORİ KISMI*/
+.favorite-head{
+  display: flex;
+  justify-content: center;
+}
+.favorite-character-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.favorite-character-info {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.favorite-character-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.favorite-character-header h2 {
+  margin: 0;
+}
+
+.favorite-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.favorite-button:focus {
+  outline: none;
+}
+
+.favorite-character-info img {
+  max-width: 100%;
+  height: auto;
+}
+
+.favorite-character-info p {
+  margin: 8px 0;
+}
