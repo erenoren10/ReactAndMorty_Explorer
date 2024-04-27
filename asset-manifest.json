@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ReactAndMorty_Explorer/static/css/main.0d986041.css",
+    "main.js": "/ReactAndMorty_Explorer/static/js/main.91598349.js",
+    "static/js/453.a0f0ae54.chunk.js": "/ReactAndMorty_Explorer/static/js/453.a0f0ae54.chunk.js",
+    "index.html": "/ReactAndMorty_Explorer/index.html",
+    "main.0d986041.css.map": "/ReactAndMorty_Explorer/static/css/main.0d986041.css.map",
+    "main.91598349.js.map": "/ReactAndMorty_Explorer/static/js/main.91598349.js.map",
+    "453.a0f0ae54.chunk.js.map": "/ReactAndMorty_Explorer/static/js/453.a0f0ae54.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0d986041.css",
+    "static/js/main.91598349.js"
+  ]
+}
